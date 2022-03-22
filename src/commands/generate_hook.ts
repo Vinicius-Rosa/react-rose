@@ -27,6 +27,6 @@ module.exports = {
       props: { name: formattedName },
     })
 
-    print.success(`Generated component at src/components/${formattedName}!!`)
+    print.success(`Generated hook at src/app/hooks/${formattedName}!!`)
   },
 }
