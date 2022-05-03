@@ -38,7 +38,7 @@ module.exports = {
     await generate({
       template: 'component.ts.ejs',
       target: `src/screens/${name}/index.tsx`,
-      props: { name },
+      props: { name: `${name}Screen` },
     })
 
     print.info(`Registering screen...`)
